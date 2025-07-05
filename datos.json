@@ -1,0 +1,26 @@
+[
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MEPO3",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "Año": "2009",
+    "Fase": "1Ø",
+    "Hilos": "3",
+    "Descripcion": "clase 1 , estatico , ciclometrico",
+    "Imagen": "complant.jpeg"
+  },
+  {
+    "Marca": "SANXING",
+    "Modelo": "DDS188",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "Año": null,
+    "Fase": "1Ø",
+    "Hilos": "3",
+    "Descripcion": "clase1, ciclometrico , estatico",
+    "Imagen": "sanxing.jpg"
+  }
+]

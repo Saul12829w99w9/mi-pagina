@@ -1,0 +1,94 @@
+<!-- templates/visualizador.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Visualizador de Medidores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    th {
+      background-color: #0077cc;
+      color: white;
+    }
+    img {
+      width: 100px;
+    }
+    .acciones button {
+      margin: 0 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .acciones form {
+      display: inline;
+    }
+  </style>
+</head>
+<a href="{{ url_for('index') }}">
+    <button style="margin-bottom: 20px; padding: 10px 20px; background-color: #0077cc; color: white; border: none; cursor: pointer;">
+      ⬅ Volver al inicio
+    </button>
+  </a>
+<body>
+  <h1>Medidores Registrados</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Constante</th>
+        <th>Corriente</th>
+        <th>Procedencia</th>
+        <th>Año</th>
+        <th>Fase</th>
+        <th>Hilos</th>
+        <th>Imagen</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for m in medidores %}
+      <tr>
+        <td>{{ m.get('Marca', '') }}</td>
+        <td>{{ m.get('Modelo', '') }}</td>
+        <td>{{ m.get('Constante', '') }}</td>
+        <td>{{ m.get('Corriente', '') }}</td>
+        <td>{{ m.get('Procedencia', '') }}</td>
+        <td>{{ m.get('Año', '') }}</td>
+        <td>{{ m.get('Fase', '') }}</td>
+        <td>{{ m.get('Hilos', '') }}</td>
+        <td>
+          {% if m.get('Imagen') %}
+            <img src="{{ url_for('static', filename='img/' + m['Imagen']) }}" alt="Imagen">
+          {% else %}
+            Sin imagen
+          {% endif %}
+        </td>
+        <td class="acciones">
+          <form method="POST" action="{{ url_for('eliminar', id=loop.index0) }}">
+            <button type="submit">Eliminar</button>
+          </form>
+          <form method="GET" action="{{ url_for('editar', id=loop.index0) }}">
+            <button type="submit">Editar</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

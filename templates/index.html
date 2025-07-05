@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrar Medidor</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eef1f5;
+      padding: 30px;
+      color: #333;
+    }
+    .formulario {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #0077cc;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="number"], select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="file"] {
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="formulario">
+    <h2>Registrar Nuevo Medidor</h2>
+    <form method="POST" enctype="multipart/form-data">
+      <label for="imagen">Imagen del Medidor:</label>
+      <input type="file" id="imagen" name="imagen" accept="image/*">
+
+      <label for="marca">Marca:</label>
+      <input type="text" id="marca" name="marca" required>
+
+      <label for="modelo">Modelo:</label>
+      <input type="text" id="modelo" name="modelo" required>
+
+      <label for="constante">Constante:</label>
+      <input type="text" id="constante" name="constante">
+
+      <label for="corriente">Corriente:</label>
+      <input type="text" id="corriente" name="corriente">
+
+      <label for="procedencia">Procedencia:</label>
+      <input type="text" id="procedencia" name="procedencia">
+
+      <label for="anio">Año:</label>
+      <input type="number" id="anio" name="anio" min="1900" max="2099">
+
+      <label for="fase">Fase:</label>
+      <select id="fase" name="fase">
+        <option value="1Ø">Monofásico</option>
+        <option value="3Ø">Trifásico</option>
+      </select>
+
+      <label for="hilos">Hilos:</label>
+      <input type="text" id="hilos" name="hilos">
+
+      <label for="descripcion">Descripción:</label>
+      <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+
+      <button type="submit">Guardar Medidor</button>
+    </form>
+  </div>
+
+</body>
+</html>

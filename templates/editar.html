@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Medidor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #eef2f5;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea,
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="file"] {
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    img {
+      margin-top: 15px;
+      max-width: 150px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Editar Medidor</h1>
+  <form method="POST" enctype="multipart/form-data">
+    <label>Marca</label>
+    <input type="text" name="marca" value="{{ medidor.get('Marca', '') }}" required>
+
+    <label>Modelo</label>
+    <input type="text" name="modelo" value="{{ medidor.get('Modelo', '') }}" required>
+
+    <label>Constante</label>
+    <input type="text" name="constante" value="{{ medidor.get('Constante', '') }}">
+
+    <label>Corriente</label>
+    <input type="text" name="corriente" value="{{ medidor.get('Corriente', '') }}">
+
+    <label>Procedencia</label>
+    <input type="text" name="procedencia" value="{{ medidor.get('Procedencia', '') }}">
+
+    <label>Año</label>
+    <input type="text" name="año" value="{{ medidor.get('Año', '') }}">
+
+    <label>Fase</label>
+    <input type="text" name="fase" value="{{ medidor.get('Fase', '') }}">
+
+    <label>Hilos</label>
+    <input type="text" name="hilos" value="{{ medidor.get('Hilos', '') }}">
+
+    <label>Descripción</label>
+    <textarea name="descripcion">{{ medidor.get('Descripcion', '') }}</textarea>
+
+    <label>Imagen actual</label><br>
+    {% if medidor.get('Imagen') %}
+      <img src="{{ url_for('static', filename='img/' + medidor['Imagen']) }}" alt="Imagen actual"><br>
+    {% else %}
+      <p>No hay imagen actual</p>
+    {% endif %}
+
+    <label>Cambiar imagen (opcional)</label>
+    <input type="file" name="imagen">
+
+    <button type="submit">Guardar Cambios</button>
+  </form>
+</body>
+</html>

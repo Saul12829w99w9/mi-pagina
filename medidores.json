@@ -1,0 +1,562 @@
+[
+  {
+    "Marca": "CDC",
+    "Modelo": "TB7",
+    "Constante": "125 Rev/Kwh",
+    "Corriente": "30(75)",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": 1982,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "CDC",
+    "Modelo": "TB7",
+    "Constante": "75 Rev/Kwh",
+    "Corriente": "25(75)",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "----",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "CDC",
+    "Modelo": "TB7",
+    "Constante": "8 Wh/Rev",
+    "Corriente": "25(75)",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "---- / 1966",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GALILEO",
+    "Modelo": "D3H40",
+    "Constante": "80Rev/Kwh",
+    "Corriente": "30-90A",
+    "Procedencia": "Argentina",
+    "A\u00c3\u00b1o": "1978 - 1979",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GALILEO",
+    "Modelo": "D6S4",
+    "Constante": "92 16/27 Rev/Kwh",
+    "Corriente": "15-90A",
+    "Procedencia": "Argentina",
+    "A\u00c3\u00b1o": 1983,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GALILEO",
+    "Modelo": "D3A4",
+    "Constante": "100 Rev/Kwh",
+    "Corriente": "25-75A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": 1983,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GANZ",
+    "Modelo": "GH36",
+    "Constante": "70Rev/Kwh",
+    "Corriente": "2x15-90A",
+    "Procedencia": "Hungria",
+    "A\u00c3\u00b1o": 1984,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GANZ",
+    "Modelo": "GH36g",
+    "Constante": "70Rev/Kwh",
+    "Corriente": "2x15-90A",
+    "Procedencia": "Hungria ",
+    "A\u00c3\u00b1o": 1984,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "Landis",
+    "Modelo": "FG1",
+    "Constante": "150 Rev/Kwh",
+    "Corriente": "25A",
+    "Procedencia": "Suiza",
+    "A\u00c3\u00b1o": "-------",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "Landis",
+    "Modelo": "FG17",
+    "Constante": "120 Rev/Kwh",
+    "Corriente": "25 - 75A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": null,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "Landis",
+    "Modelo": "FL3x",
+    "Constante": "90  Rev/Kwh",
+    "Corriente": "20 - 80A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "-------",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "Landis",
+    "Modelo": "MG1",
+    "Constante": "262.5 Rev/Kwh",
+    "Corriente": "20A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": 1983,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "Landis",
+    "Modelo": "MG1",
+    "Constante": "350 Rev/Kwh",
+    "Corriente": "15A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "-------",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "D6S5H",
+    "Constante": "92 16/27 Rev/Kwh",
+    "Corriente": "15-90A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": "1992 - 2002",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "D6S5H",
+    "Constante": "93.75 Rev/Kwh",
+    "Corriente": "15-90A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": 1997,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "D8L",
+    "Constante": "69 4/9 Rev/Kwh",
+    "Corriente": "15-90A",
+    "Procedencia": "Brasil",
+    "A\u00c3\u00b1o": "1993 - 1994",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "FAE",
+    "Modelo": "MFB-120G",
+    "Constante": "14.4 Wh/Rev",
+    "Corriente": "15-120A",
+    "Procedencia": "Brasil",
+    "A\u00c3\u00b1o": "1999 - 2000",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GENERAL ELECTRIC",
+    "Modelo": "D-58C",
+    "Constante": "14.4 Wh/Rev",
+    "Corriente": "15 - 90A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": "1988 - 1991",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ACTARIS",
+    "Modelo": "MV 202",
+    "Constante": "14.4 Wh/Rev",
+    "Corriente": "15 - 90A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": 2003,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ACTARIS",
+    "Modelo": "MVT 202",
+    "Constante": "69 4/9 Rev/Kwh",
+    "Corriente": "15 - 90A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": 2004,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "SIEMENS",
+    "Modelo": "D58JO",
+    "Constante": "14.4 Wh/Rev",
+    "Corriente": "15 - 90A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": "1999 - 2001",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "SHENZHEN",
+    "Modelo": "DTS27",
+    "Constante": "200 Imp/Kwh",
+    "Corriente": "10-100A",
+    "Procedencia": "China ",
+    "A\u00c3\u00b1o": "2012 - 2013",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "CGS",
+    "Modelo": "CS23",
+    "Constante": "96 Rev/Kwh",
+    "Corriente": "25 - 75A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": 1983,
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MTSE01",
+    "Constante": "200 Imp/Kwh",
+    "Corriente": "3x15(120)A",
+    "Procedencia": "China ",
+    "A\u00c3\u00b1o": "2002 - 2005",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MTSE01-C",
+    "Constante": "200 Imp/Kwh",
+    "Corriente": "3x15(120)A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "2005 - 2009",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MTSE01-F",
+    "Constante": "400 Imp/Kwh",
+    "Corriente": "3x15(120)A",
+    "Procedencia": "China ",
+    "A\u00c3\u00b1o": "2009 - 2011",
+    "Fase": "3\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "FERRANTI",
+    "Modelo": "FM",
+    "Constante": "600 Rev/Kwh",
+    "Corriente": "5 - 25A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "------",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "SACET",
+    "Modelo": "S4",
+    "Constante": "750 Giros",
+    "Corriente": "5 - 20A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "------",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "LANDIS",
+    "Modelo": "CG61ZF5",
+    "Constante": "960 Rev/KWH",
+    "Corriente": "5 - 20A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "1972 - 1973",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "LANDIS",
+    "Modelo": "CL12zh",
+    "Constante": "1200 Rev/Kwh",
+    "Corriente": "5A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "------",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "LANDIS",
+    "Modelo": "M12C",
+    "Constante": null,
+    "Corriente": "10 - 60A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": null,
+    "Fase": null,
+    "Hilos": null
+  },
+  {
+    "Marca": "LANDIS",
+    "Modelo": "M12N",
+    "Constante": "3.2 Wh/Rev",
+    "Corriente": "10 - 40A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": 1999,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "LANDIS",
+    "Modelo": "CG1",
+    "Constante": "1200 Rev/kWh",
+    "Corriente": "10A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "------",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "LANDIS",
+    "Modelo": "CG1",
+    "Constante": "2400 Giros",
+    "Corriente": "5A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "------",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "CGS",
+    "Modelo": "CS14",
+    "Constante": "864 Rev/Kwh",
+    "Corriente": "2 - 20A",
+    "Procedencia": null,
+    "A\u00c3\u00b1o": "------",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "SANGAMO",
+    "Modelo": "S3",
+    "Constante": "2/3 Kwh",
+    "Corriente": "5A",
+    "Procedencia": 2,
+    "A\u00c3\u00b1o": null,
+    "Fase": null,
+    "Hilos": "2H"
+  },
+  {
+    "Marca": "GALILEO",
+    "Modelo": "M5G4Z",
+    "Constante": "400 Rev/Kwh",
+    "Corriente": "10 - 50A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": 1978,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "FUJI",
+    "Modelo": "FA34ME",
+    "Constante": "450 Rev/Kwh",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Jap\u00c3\u00b3n",
+    "A\u00c3\u00b1o": 1982,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "SANXING",
+    "Modelo": "DDS188",
+    "Constante": "1600 Imp/Kwh",
+    "Corriente": "10 - 50A",
+    "Procedencia": "China ",
+    "A\u00c3\u00b1o": "2012- 2014",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "COMDIA",
+    "Modelo": "DFS01AAF",
+    "Constante": "1600 Imp/Kwh",
+    "Corriente": "10 - 50A",
+    "Procedencia": "China ",
+    "A\u00c3\u00b1o": 2008,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "HEXING",
+    "Modelo": "HXE13R",
+    "Constante": "1600 Imp/Kwh",
+    "Corriente": "5 - 60A",
+    "Procedencia": "China ",
+    "A\u00c3\u00b1o": 2014,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "N4S5",
+    "Constante": "450 Rev/Kwh",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": 1991,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "N4S5H",
+    "Constante": "450 Rev/Kwh",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": "1993 - 1998",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "N4S5H",
+    "Constante": "300 Rev/Kwh",
+    "Corriente": "15 - 60A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": 1996,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "ABB",
+    "Modelo": "S4T2hz",
+    "Constante": "468 3/4 Rev/Kwh",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Argentina ",
+    "A\u00c3\u00b1o": "1999 - 2001",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GANZ",
+    "Modelo": "DE 4",
+    "Constante": "450 Rev/Kwh",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Peru",
+    "A\u00c3\u00b1o": "1977 - 1979",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "GANZ",
+    "Modelo": "DEY4",
+    "Constante": "450 Rev/Kwh",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Peru",
+    "A\u00c3\u00b1o": "1980 - 1996",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "SCHLUMBERGER",
+    "Modelo": "FX 231",
+    "Constante": "2.4 Wh/Rev",
+    "Corriente": "10 - 66A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": 1976,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "SCHLUMBERGER",
+    "Modelo": "FX 231",
+    "Constante": "2.4 Wh/Rev",
+    "Corriente": "10 - 40A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": "1994 - 1995",
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "SCHLUMBERGER",
+    "Modelo": "FX 231",
+    "Constante": "3.6 Wh/Rev",
+    "Corriente": "15 - 100A",
+    "Procedencia": "Brasil ",
+    "A\u00c3\u00b1o": 1975,
+    "Fase": "\u00c3\u02dc",
+    "Hilos": "3H"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MEPO3",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "A\u00c3\u00b1o": "2009",
+    "Fase": "1\u00c3\u02dc",
+    "Hilos": "3",
+    "Descripcion": "clase 1 . ciclometrico , estatico",
+    "Imagen": "complant.jpeg"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MEPO3",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "A\u00c3\u00b1o": "2009",
+    "Fase": "1\u00c3\u02dc",
+    "Hilos": "3",
+    "Descripcion": "clase 1 . ciclometrico , estatico",
+    "Imagen": "complant.jpeg"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MEPO3",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "A\u00c3\u00b1o": "2009",
+    "Fase": "1\u00c3\u02dc",
+    "Hilos": "3",
+    "Descripcion": "clase 1 , ciclometrico, estatico ",
+    "Imagen": "complant.jpeg"
+  },
+  {
+    "Marca": "SANXING",
+    "Modelo": "DDS188",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "A\u00c3\u00b1o": "2013",
+    "Fase": "1\u00c3\u02dc",
+    "Hilos": "3",
+    "Descripcion": "clase1 , ciclometrico , estatico",
+    "Imagen": "sanxing.jpg"
+  },
+  {
+    "Marca": "COMPLANT",
+    "Modelo": "MEPO3",
+    "Constante": "1600 imp/kwh",
+    "Corriente": "10-50 A",
+    "Procedencia": "china",
+    "A\u00f1o": null,
+    "Fase": "1\u00d8",
+    "Hilos": "3",
+    "Descripcion": "cl 1 - ciclometrico , estatico",
+    "Imagen": "complant.jpeg"
+  }
+]
